@@ -1,0 +1,8 @@
+services:
+  frontend:
+    build: .
+    image: front-despacho:v1
+    container_name: front-despacho
+    ports:
+      - "80:80"
+    restart: always
